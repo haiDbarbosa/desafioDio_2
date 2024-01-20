@@ -1,11 +1,11 @@
-let victories = calculateVictory(64,12)
+let victoryBank = calculateVictory(64,12)
 
-function calculateVictory(victories, defeat) {
-    return victories - defeat;
+console.log(`O Herói tem de saldo de ${victoryBank} está no nível de ${lvl}`)
+
+function calculateVictory(victory, defeat) {
+    return victory - defeat;
 }
 
-// function totalMatchs() {
+function calculateRank() {
     
-// }
-
-console.log(`Você tem o total de partidas! O saldo de vitórias é de ${victoryRoyal()}`)
+}
